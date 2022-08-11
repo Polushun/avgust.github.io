@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.index.sgl.css">
+    <title>Login.Information</title>
+        
+    <style>
+    body{
+        background: rgb(19, 19, 19); /* Цвет фона */
+        color: #36cf07; /* Цвет текста */
+    }
+    </style>
+    <style>
+        a {
+         text-decoration: none; /* Убираем подчёркивание */
+        }
+       </style>
+</head>
+<body>
+    
+    
+            <div class="main-word-1"> <!-- Главный блок данной страницы -->
+                <div id="clock"> <!-- Часы -->
+                    <script>
+                                window.onload =function()
+                                {
+                                    window.setInterval(function() 
+                                        {
+                                            var date = new Date 
+
+                                            var hours = date.getHours();
+                                            var minutes = date.getMinutes();
+                                            var seconds = date.getSeconds();
+
+                                            var clock = hours + ":" + minutes + ":" + seconds;
+                                            document.getElementById("clock").innerHTML = clock;
+                                        }
+                                                        );
+                                }        
+                    </script>
+
+                </div>
+                    <a href="asdf.html">The site supports only Google so far</a> <!-- Главная ссылка -->
+
+                                  
+            </div>
+        
+</body>
+</html>

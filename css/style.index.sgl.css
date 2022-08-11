@@ -1,0 +1,40 @@
+#clock {
+    color: #1eff00;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+body {
+    text-align: center;
+
+}
+
+
+div.main-word-1{
+    
+    height: 137px;
+    position: relative;
+    margin: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+a{
+    background-image: linear-gradient(#36cf07 50%, #36cf07 50%), linear-gradient(#36cf07 10%, #36cf07 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 2px, 100% 1px;
+    color: #1eff00;
+    padding-bottom: 3px;
+    transition: .8s ease-in-out; 
+     }
+
+a:hover{
+    background-size: 100% 2px, 100% 2px;
+    color: #0e5500;
+}
+
+
+
